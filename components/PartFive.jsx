@@ -13,7 +13,7 @@ export default function Five(){
 
 
     
-      <div className='mt-10'>
+      <div className='mt-10 ml-20'>
          <FontAwesomeIcon icon={faQuestion} className='mx-5 mt-10 font-bold rounded-3xl	text-3xl text-red-400	p-5 bg-red-100'/>
          <h1 className='text-bold text-5xl text-gray-500 mt-5 mb-10'>Have Any Question?</h1>
          <p className='text-3xl text-gray-500 mb-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab illo facere poss.</p>
