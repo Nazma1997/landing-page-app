@@ -47,7 +47,7 @@ export default function Four(){
                
            </div>
            <p className='text-7xl font-bold text-gray-600 text-center'>. . .</p>
-           <div className='flex justify-around mt-5 bg-slate-300 p-3 rounded-2xl'>
+           <div className='lg:flex justify-around mt-5 bg-slate-300 p-3 rounded-2xl'>
              <button className='text-xl font-medium bg-red-500 p-5 m-1 rounded-3xl text-gray-500'>All</button>
              <button className='text-xl font-medium bg-slate-50 rounded-3xl m-1 p-3 text-gray-500'>Expenses</button>
              <button className='text-xl font-medium bg-slate-50 rounded-3xl p-3 m-1 text-gray-500'>Receives</button>

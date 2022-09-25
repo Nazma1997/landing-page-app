@@ -7,7 +7,7 @@ import img from '../images/pic-2.png'
 export default function Three(){
   return(
     <div className="lg:flex  justify-evenly bg-slate-50 mt-20 pt-10 pb-10">
-        <div className=' mt-10 ml-10'>
+        <div className=' mt-10 lg:ml-10'>
         <Image src={img} alt="Picture of the author" width={800} height={1000} className='rounded-3xl'/>
         </div>
            
