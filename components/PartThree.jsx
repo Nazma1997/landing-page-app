@@ -7,7 +7,7 @@ import img from '../images/pic-2.png'
 export default function Three(){
   return(
     <div className="lg:flex  justify-evenly bg-slate-50 mt-20 pt-10 pb-10">
-        <div className=' mt-10 lg:ml-10'>
+        <div className=' mt-10 lg:mx-10 md:mx-5'>
         <Image src={img} alt="Picture of the author" width={800} height={1000} className='rounded-3xl'/>
         </div>
            
@@ -22,7 +22,7 @@ export default function Three(){
                 
         </div>
             
-            <div className='m-5 ml-10'>
+            <div className='m-5 ml-10 md:ml-10'>
                 <h1 className='font-bold text-5xl text-gray-600 mb-5'>Download Our App and Enjoy!</h1>
                <ul class="list-disc ml-10 mt-10 mb-10 ">
                 <li className='m-5 text-2xl text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, fugiat.</li>

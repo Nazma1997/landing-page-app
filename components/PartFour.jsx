@@ -14,7 +14,7 @@ export default function Four(){
                 
          </div>
        
-       <div className='m-10'>
+       <div className='m-10 '>
 
        <h1 className='font-bold text-5xl text-gray-600 mb-5'>Our App Features</h1>
          <p className='text-2xl text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
@@ -35,19 +35,19 @@ export default function Four(){
        </div>
       </div>
 
-      <div className='bg-white p-10 mt-20 rounded-3xl'>
+      <div className='bg-slate-100 p-10 mt-20 rounded-3xl md:mx-5'>
            <div className=' flex justify-evenly'>
            <FontAwesomeIcon icon={faArrowCircleLeft} className='mx-5 mt-10 font-bold rounded-full	text-3xl text-green-400	p-5  bg-green-100'/>
             <span className='text-2xl font-bold text-gray-500 mb-10'>My Cards</span>
             <FontAwesomeIcon icon={faArrowCircleRight} className='mx-5 mt-10 font-bold rounded-full	text-3xl text-green-400	p-5  bg-green-100'/>
            </div>
-           <div className='bg-gray-100 mt-5 p-10 rounded-2xl'>
+           <div className='bg-gray-300 mt-5 p-10 rounded-2xl'>
                <h2 className='text-3xl bold text-green-400 text-center'> Balance</h2>
                <h2 className='text-3xl bold text-green-400 text-center'> $20000</h2>
                
            </div>
            <p className='text-7xl font-bold text-gray-600 text-center'>. . .</p>
-           <div className='lg:flex justify-around mt-5 bg-slate-300 p-3 rounded-2xl'>
+           <div className='lg:flex md:flex justify-around mt-5 bg-slate-300 p-3 rounded-2xl'>
              <button className='text-xl font-medium bg-red-500 p-5 m-1 rounded-3xl text-gray-500'>All</button>
              <button className='text-xl font-medium bg-slate-50 rounded-3xl m-1 p-3 text-gray-500'>Expenses</button>
              <button className='text-xl font-medium bg-slate-50 rounded-3xl p-3 m-1 text-gray-500'>Receives</button>

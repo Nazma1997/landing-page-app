@@ -1,6 +1,6 @@
 export default function Six(){
   return(
-    <div className="lg:flex  justify-around bg-violet-500 rounded-3xl mt-20 mb-10 pt-10 pb-10 lg:mx-20">
+    <div className="lg:flex  justify-around bg-violet-500 rounded-3xl mt-20 mb-10 pt-10 pb-10 lg:mx-20 md:mx-10">
 
       <div className="text-center mt-10">
         <h1 className="text-7xl font-bold text-white">12M+</h1>

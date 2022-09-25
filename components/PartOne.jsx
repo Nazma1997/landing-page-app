@@ -12,7 +12,7 @@ import {faSearch,faPlay} from "@fortawesome/free-solid-svg-icons"
 export default function One(){
   return(
    <div className=' pb-20 lg:bg-slate-50 '>
-      <div className=' lg:flex justify-around  p-5 bg-violet-800'>
+      <div className=' lg:flex md:flex justify-around  p-5 bg-violet-800'>
         <h1 className='font-medium text-3xl text-white	'>LOGO</h1>
         <h1 className='font-medium text-3xl text-white	'>Features</h1>
         
@@ -25,9 +25,9 @@ export default function One(){
             <h1 className='font-bold text-5xl text-violet-800 mb-5'>Download Our App and Enjoy!</h1>
             <p className='pb-10 text-3xl text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum praesentium incidunt magni dolor velit, veniam numquam dolorum ratione distinctio?</p>
             
-            <button className='bg-violet-600 lg:p-5 text-white text-2xl rounded-xl mr-3'>Download App</button>
+            <button className='bg-violet-600 lg:p-5 text-white text-2xl rounded-xl mr-3 md:p-5'>Download App</button>
             
-            <FontAwesomeIcon icon={faPlay} className='lg:mx-10 font-bold sm:mx-3	lg:text-3xl text-violet-600'/> <span className='lg:text-2xl lg:font-medium	text-gray-500'>Play Now</span>
+            <FontAwesomeIcon icon={faPlay} className='lg:mx-10 font-bold sm:mx-3 md:text-3xl	lg:text-3xl text-violet-600'/> <span className='lg:text-2xl lg:font-medium	text-gray-500'>Play Now</span>
             
             
 
